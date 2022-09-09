@@ -5,7 +5,7 @@
 ## Windows
 **Note**: 
 
-**1) Open Terminal.app \n
+**1) Open Terminal.app
 **2) Copy/Paste the following command and press RETURN: **
             *cd ~/Downloads/Breakout-Riddle-Game-main*
 **3) Type 'make' and press RETURN to build the program**
