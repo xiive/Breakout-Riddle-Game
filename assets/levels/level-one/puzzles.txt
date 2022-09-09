@@ -1,0 +1,18 @@
+1: Escape
+- Find a way to escape.
+2: New Way Out
+- A high quality home security system is holding the front door bolted shut - it won’t budge an inch. Maybe there's another way out.
+3: Secret Stash
+- Something is behind the iron panel in the laundry room. Find something to remove the 2 remaining screws.
+4: A Tad Snoopy
+- The computer in the Home Office is locked. Maybe login credentials are lying around somewhere.
+5: Goodies In The Wall
+- Learn how the First Riddle can be used to open the wall safe in the Primary Bedroom.
+6: Mock Clock
+- Solve the Second Riddle and figure out how the answer can be used.
+7: Running On Low
+- Solve the Third Riddle and scavenge the house for batteries to put in the TV remote.
+8: Secrets In The Safe
+- Figure out how the symbols on the TV correspond with the safe in the Wine Cellar.
+9: Getting To Know You
+- Find out how the keywords can be used to disarm the security system.
