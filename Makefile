@@ -8,10 +8,16 @@ CXX_VERSION_FLAG := -std=c++17
 SRCDIR := src
 HDRDIR := include
 BUILDDIR := build
+BINDIR := bin
 
 # File Extensions
 SRCEXT := cpp
 HDREXT := hpp
+
+# Escape Codes
+BOLD := \033[1m
+BLUE := \033[34m
+RESET := \033[0m
 
 # Fetches source files
 SOURCES := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
@@ -24,13 +30,10 @@ LIBS := -l sfml-system -l sfml-window -l sfml-graphics -l sfml-audio -l sfml-net
 # Include 
 INC := -I include
 # Unix Target Executable
-TARGET := bin/Breakout
-# Escape Codes
-BOLD := \033[1m
-BLUE := \033[34m
-RESET := \033[0m
+TARGET := $(BINDIR)/Breakout
 
 $(TARGET): $(OBJECTS)
+	@mkdir -p $(BINDIR)
 	@echo "$(BOLD)$(BLUE)==>$(RESET) Linking target executable < $@ >";
 	$(CXX) $(CXX_VERSION_FLAG) $^ -o $(TARGET) $(INC) $(LINKER_FLAG) $(LIBS)
 	
